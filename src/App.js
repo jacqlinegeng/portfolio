@@ -1,23 +1,28 @@
 import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Github } from './Components/About/Github';
+import { ThemeContext } from './Context/theme';
+import { About } from './Components/About/About';
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 
 function App() {
+  const [{ themename }] = React.useContext(ThemeContext);
+  React.useEffect(() => {
+    Aos.init({ duration: 1500 });
+  }, []);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div id="top" className={`${themename} app`}>
+      <section id="#home">
+        
+      </section>
+      <main>
+        <About />
+        <Github />
+      </main>
     </div>
   );
 }
