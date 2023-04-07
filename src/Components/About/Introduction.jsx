@@ -20,13 +20,15 @@ export const Introduction = () => {
             </div>
             <div className="introduction_datacontainer">
               <h4>
-                Hi Everyone, My name is{" "}
+                Hey there, My name is{" "}
                 <span className="different">Jacqline Geng</span> and I am from{" "}
                 <span className="different">
                   {" "}
                   Vancouver, Canada
                 </span>
-                  I completed my Bachelor's Degree in Business from{" "}
+                  .
+                  {" "}
+                  I studied Business at{" "}
                 <span className="different">
                   University of British Columbia
                 </span>

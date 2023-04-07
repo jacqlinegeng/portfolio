@@ -29,7 +29,7 @@ export const Timeline = () => {
     <>
       <div className="section mainsection">
         <h2 className="section__title" data-aos="fade-right">
-          My <span className="different">Timeline 💫</span>
+          My Professional <span className="different">Timeline 💫</span>
         </h2>
         <VerticalTimeline lineColor={linecolor}>
           <VerticalTimelineElement
@@ -151,7 +151,7 @@ export const Timeline = () => {
               Student
             </h3>
             <p data-aos="fade-right">
-              Studied at University British Columbia in the Sauder School of Business, specializing in Accounting and Business Technology Management (Information Systems Management)
+              Studied at University British Columbia in the Sauder School of Business, specializing in Accounting and Business Technology Management
             </p>
           </VerticalTimelineElement>
           
